@@ -20,7 +20,7 @@ class SignIn extends Component {
 	}
 
 	onSignIn = () => {
-		fetch("http://localhost:3001/signin", {
+		fetch("https://smartbrn-api.herokuapp.com/signin", {
 			method: 'POST',
 			headers: {
 				'Content-Type': 'application/json'
